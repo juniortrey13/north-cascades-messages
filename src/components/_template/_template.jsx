@@ -1,13 +1,13 @@
 import {useState} from 'react';
 
-function _template () {
-  _template
+function MessagesList () {
+  MessagesList
   return (
     <div>
-      <h1>_template</h1>
+      <h1>MessagesList</h1>
     </div>
   );
 
 }
 
-export default _template
+export default MessagesList

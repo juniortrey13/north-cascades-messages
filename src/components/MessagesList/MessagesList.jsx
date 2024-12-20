@@ -1,13 +1,18 @@
 import {useState} from 'react';
+import Message from '../Message/Message';
 
-function _template () {
-  _template
+function MessagesList ( messages ) {
   return (
     <div>
-      <h1>_template</h1>
+      <h1>MessagesList</h1>
+      {
+        messages.messages.map( ( message, index )=>(
+          <Message key={ index } message={ message }/>
+        ))
+      }
     </div>
   );
 
 }
 
-export default _template
+export default MessagesList
